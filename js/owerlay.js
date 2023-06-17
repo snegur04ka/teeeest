@@ -6,12 +6,12 @@ const close = document.querySelector(".drawer__right--clos")
 const body = document.querySelector("body")
 korzina.addEventListener("click", () => {
     drawer.style.display = "block"
-    body.style.owerflow = "hidden"
+    body.style = "overflow: hidden;"
 })
 
 close.addEventListener("click", () => {
     drawer.style.display = "none"
-    body.style.owerflow = "auto"
+    body.style = "overflow: auto;"
 })
 //
 }
