@@ -302,6 +302,10 @@ a {
   overflow: auto;
 }
 
+.activ body {
+  overflow: hidden;
+}
+
 .mother {
   position: relative;
 }/*# sourceMappingURL=index.css.map */

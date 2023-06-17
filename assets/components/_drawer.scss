@@ -117,8 +117,13 @@
         flex: 1;
         overflow: auto;
     }
-}
 
+}
+.activ{
+    body{
+        overflow:hidden;
+    }
+}
 .mother {
     position: relative;
 }
