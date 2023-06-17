@@ -1,10 +1,10 @@
 import { cart } from "./index.js"
 const drawerContent = document.querySelector(".drawer__content")
 
-const renderCartItems = () =>{
+const renderCartItems = () => {
     console.log(cart);
+    drawerContent.innerHTML = ""
     cart.forEach(item => {
-        // drawerContent.innerHTML = ""
         drawerContent.innerHTML += `
             <div class="drawer__item" id="${item.id}">
                 <div class="drawer__left">

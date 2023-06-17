@@ -14,7 +14,7 @@ export let cart = [
     //     top: "./assets/img/sneakers-2.svg",
     //     center: "Мужские Кроссовки Nike Air Max 270",
     //     bottomm: 12999,
-    // }
+    // },
 ]
 import renderCartItems from "./renderCartItems.js"
 
@@ -142,7 +142,7 @@ const response = async () => {
     //     }
     //     });
     // });
-    
+    renderCartItems()
     const addCartItem = document.querySelectorAll(".cross__plus")
     addCartItem.forEach(cartAdd =>{
         cartAdd.addEventListener("click",() =>{
